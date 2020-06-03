@@ -1,9 +1,29 @@
 /*
 
 Your code goes below.
-
 */
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Dallas';
+let greeting = 'HEY'
+
+function multiply(xx) {
+  x = x * xx;
+}
+function modYBy(yy) {
+  y = y % yy;
+}
+function opposite(zz){
+  z = ~z + zz;
+}
+function makeFullName(myname) {
+  name = name + ' ' + myname;
+}
+function yellAt(yell) {
+  greeting = greeting + ', ' + "Colin!";
+}
 
 
 
